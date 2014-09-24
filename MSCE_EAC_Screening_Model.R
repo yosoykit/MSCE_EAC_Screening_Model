@@ -9,7 +9,7 @@ params = amparams
 # age of index screen of BE patients	
 screen_age = 60
 # total simulation size
-totalpop = 1000
+totalpop = 100000
 # decide stem cell packing for biopsy protocol / mm^2 : rho = c_sigma * kstem_biop
 kstem_biop = 50
 #####################################################################################################################
@@ -102,7 +102,7 @@ for ( k in 1:totalpop){
 	}	
 }
 ## set up matrices with clone numbers and sizes for only those patients who did not develop clinical EAC before screening age
-source('pre_biop_setup.R')
+source('MSCE_EAC_pre_biop_setup.R')
 
 #####################################################################################################################
 ######### 	MSCE-EAC biopsy screening simulation for cancer-free BE patients at index endoscopy			  ###########
