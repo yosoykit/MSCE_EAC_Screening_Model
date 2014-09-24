@@ -1,7 +1,7 @@
 # Model parameters: can depend on race/gender/GERD symptoms etc.
-source('am_parameter_list.R')
+source('ex_parameter_list.R')
 # Density for Barrett's esophagus onset times
-source('BE_density.R')
+source('BE_density_func.R')
 # functions for MSCE-EAC model simulation and screening protocol functions
 source('MSCE_EAC_screening_functions.R')
 
