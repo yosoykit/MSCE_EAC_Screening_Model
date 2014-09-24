@@ -1,5 +1,5 @@
 ## Load Legendre-Gauss quadrature function with Fortran wrapper for numerical integration: 
-##    all provided in GitHub repo, must make .o and .so on local
+##    all provided in GitHub repo
 dyn.load('legauss.so')
 source('legauss.R')  
 #######################################################
