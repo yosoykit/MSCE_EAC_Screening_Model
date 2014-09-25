@@ -16,7 +16,7 @@ These are the functions necessary to implement the MSCE-EAC Screening Method dev
 - Biopsy-based screening may occur through efficient and robust circular assumption on a plane. It may also occur through allowance of more diffusive clone growth (functions for which are in `MSCE_EAC_HexGrid.R`, `MSCE_EAC_neighborList.R`, `MSCE_EAC_genShape.R`)
 - The geometric function for circular clones overlapping rectangular biopsies requires numerical integration, which we implement in this code via Legendre Gauss quadrature written in Fortran by Georg Luebeck and provided in this repo
 
-` ex_parameter_list.R`
+`ex_parameter_list.R`
 - example parameters provided for the biological rates and GERD prevalence values. Example given for all race males, fit to SEE incidence data and used for examples in Kong et al. 2014 and Screening paper.
 
 `BE_density_func.R`
